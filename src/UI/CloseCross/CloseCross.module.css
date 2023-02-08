@@ -1,0 +1,24 @@
+.CloseNavBar {
+  position: absolute;
+  /* float: right; */
+  top:1rem;
+  right:1rem;
+  width:1.4rem;
+  height:1.4rem;
+  margin: 0.3rem;
+  padding:0.3rem;
+  cursor: pointer;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.closeIcon {
+  width: 1rem;
+}
+
+.CloseNavBar:hover {
+  background-color: lightgrey;
+}  
